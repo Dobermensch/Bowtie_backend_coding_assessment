@@ -5,17 +5,17 @@ This is the programming test for Necktie using Docker, Python and Postgres.
 # Installation instructions
 1) Clone this repo. 
 2) Create a .env file inside the cloned repo and add the following values:
-
+```
     SECRET_KEY=supersecret
     POSTGRES_USER=postgres
     POSTGRES_PASSWORD=postgres
     POSTGRES_SERVER=db
     POSTGRES_PORT=5432
     POSTGRES_DB=postgres
-
+```
 3) Run the following commands:
 
-    docker-compose up
+    `docker-compose up`
 
 The app is served at `localhost:8000` and the swagger docs are at `http://localhost:8000/docs`
 
