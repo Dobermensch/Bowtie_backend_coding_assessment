@@ -42,7 +42,18 @@ I assume that a doctor can only have one office but of course, they may have sev
 
 ## b. Any other assumptions and opinions you have taken throughout the assessments?
 I don't think so, the main one was stated above.
+### After initial rejection 
+My biggest assumption was that this would be treated like a MVP/POC. Instead, judging by the remarks that I got, it turns out this is supposed to be a production ready application fit to be deployed and used by clients in the real world but the only problem is that candidates are given less than a day (8 hours) to do it without any product managers or frontend engineers to help them out and then are judged on why the system doesn't support a certain use case! 
+
+Forget the fact that candidates receive nothing in return of submitting the test, not even a $20 coupon. The reviewer didn't even entertain the idea that maybe candidates are short on time and so may find it difficult to think of all the ways to make this perfect. 
 
 # Closing thoughts
 I have finished yet another coding test with another newly learned framework and I would like to give credit to probably the best tech blog I've ever read: https://www.jeffastor.com/blog/up-and-running-with-fastapi-and-docker 
-Follow my Github and add me on Linkedin :D
+
+### My thoughts on initial rejection
+
+Aside from the reviewer's mistake (thinking I'm storing JSON in text column when I'm actually storing it in JSONB column when the table definition is literally in the project to see) while reviewing my assessment, I would like to address what I find to be the dismissive and unrealistic attitude of the reviewer:
+
+Firstly, the reviewer mentioned something about inconsistent return types. Yes that's true. What's also true is that I can clearly make them consistent without any problem. In addition to that, in a real world setting, the response return types would be determined by working together with frontend engineers. This is not a real world setting. This is a coding test and companies are generally (surprisingly not in the case of necktie) happy with a MVP. So when I see the point inconsistent return types, I really don't know what to say.
+
+Secondly, "price range filter could be better". Oh wow. Yeah, my aim was to deliver the test ASAP, I'm already sorry I didn't think of every single use case around the price range filters. Is this a test for software engineers or product managers?
